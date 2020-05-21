@@ -36,12 +36,7 @@ navbarHandler = () => {
 
     render() {
         return <nav className="navbar navbar-expand-md bg-light navbar-light">
-            <Link to="/" className="navbar navbar-dark bg-dark">
-            <img src={logo} alt="logo" />
-            { /* https://www.iconfinder.com/icons/4569261/chili_fruit_spicy_vegetables_icon 
-            Creative Commons (Attribution 3.0 Unported);
-            https://www.iconfinder.com/webalys */}
-            </Link>
+           
             <button className="navbar-toggler" type="button" onClick={this.navbarHandler}>
                 <span className="navbar-toggler-icon" />
             </button>
