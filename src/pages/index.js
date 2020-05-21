@@ -9,9 +9,9 @@ const IndexPage = () => (
   <Layout>
   
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <FaGulp />
+    <h1>Chimayo Chili Company</h1>
+    <p>Welcome to the online store for authentic New Mexican Chimayo Chili</p>
+    
   </Layout>
 )
 
