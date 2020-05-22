@@ -29,7 +29,7 @@ h1,h2,h3,h4,h5,h6{
 } 
 
 .default-background,.about-background {
-    min-height: 60vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,6 +53,11 @@ h1,h2,h3,h4,h5,h6{
     background: var(--mainBrown);
 }
 
+.menu{
+    background: var(--mainGrey);
+}
+
+
 .py-5 {
-    height: 28vh;
+    height: 50vh;
 }
