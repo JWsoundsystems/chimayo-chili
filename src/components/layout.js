@@ -15,11 +15,13 @@ import "./layout.css"
 import "./layout1.css"
 import Navbar from "./Globals/Navbar"
 import Footer from "./Globals/Footer"
+import Title from "./Globals/Title"
 
 
 const Layout = ({ children }) => (
 <>
 <Navbar></Navbar>
+
 {children}
 <Footer />
 </>

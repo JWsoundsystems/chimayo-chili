@@ -10,7 +10,7 @@ export default function Info() {
             <div className="row">
             <div className="col-10 col-sm-8 mx-auto text-center">
                 <p className="lead text-muted mb-5">
-                    Eu adipisicing elit id anim nostrud ex. Occaecat enim incididunt aliqua esse et qui nisi enim est cupidatat mollit magna. Tempor proident culpa consectetur aute ad. Do veniam culpa duis sit. Do sint adipisicing fugiat pariatur. Elit nulla consectetur cupidatat laborum do cillum ea sint consectetur reprehenderit.
+                    Eu adipisicing elit id anim nostrud ex. Occaecat enim incididunt aliqua esse et qui nisi enim est cupidatat mollit magna.
                 </p>
                 <Link to="/about/">
                     <button className="btn text-uppercase btn-yellow">About Page</button>
