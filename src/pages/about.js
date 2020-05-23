@@ -13,7 +13,7 @@ const AboutPage = ({ data }) => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <BackgroundSection 
     img={data.img.childImageSharp.fluid} 
-    title="About Us" styleClass="about-background" 
+    title="" styleClass="about-background" 
     /> 
     <Info />
   </Layout>

@@ -6,7 +6,7 @@ export default function Info() {
     return (
         <section className="py-5 info" >
             <div className="container">
-            <Title title="our story"></Title>
+            <Title title="About Us"></Title>
             <div className="row">
             <div className="col-10 col-sm-8 mx-auto text-center">
                 <p className="lead text-muted mb-5">
