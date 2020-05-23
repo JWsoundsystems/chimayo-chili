@@ -28,7 +28,7 @@ export default function Products() {
     return (
         <div>
             <StaticQuery query={getProducts} render={data => {
-                return (<section className="py-5">
+                return (<section className="py-5 products">
                     <div className="container">
                         <Title title="our products" />
                         <div className="row">

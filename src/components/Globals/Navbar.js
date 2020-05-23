@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
-import logo from "../../images/logo.png";
 import { FaCartArrowDown } from "react-icons/fa";
 
 
@@ -17,9 +16,19 @@ state ={
     },
     {
         id: 2,
-        path: "/about",
-        text: "about"
+        path: "/recipes",
+        text: "Recipes"
     },
+    {
+        id: 3,
+        path: "/about",
+        text: "About Us"
+    },
+    {
+        id: 4,
+        path: "/contact",
+        text: "Contact Us"
+    }
 ]
 };
 

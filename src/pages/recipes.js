@@ -4,18 +4,20 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroundSection";
-import Info from '../components/Home/Info'
+import Menu from "../components/Home/Menu";
+import Img from 'gatsby-image'
 
 
-const AboutPage = ({ data }) => (
+
+const RecipePage = ({ data }) => (
   <Layout>
   
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Recipes" keywords={[`gatsby`, `application`, `react`]} />
     <BackgroundSection 
     img={data.img.childImageSharp.fluid} 
-    title="About Us" styleClass="about-background" 
+    title="Recipes" styleClass="about-background" 
     /> 
-    <Info />
+    <Menu items={data.menu}>Menu Page</Menu>
   </Layout>
 );
 
@@ -31,4 +33,4 @@ export const query = graphql`
 }
 `
 
-export default AboutPage
+export default RecipePage
