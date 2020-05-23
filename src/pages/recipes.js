@@ -4,8 +4,8 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroundSection";
-import Menu from "../components/Home/Menu";
-import Img from 'gatsby-image'
+import Info from "../components/Home/Info";
+
 
 
 
@@ -17,7 +17,7 @@ const RecipePage = ({ data }) => (
     img={data.img.childImageSharp.fluid} 
     title="Recipes" styleClass="about-background" 
     /> 
-    <Menu items={data.menu}>Menu Page</Menu>
+    <Info />
   </Layout>
 );
 
