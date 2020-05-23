@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'gatsby'
 import Title from '../Globals/Title'
 import Img from 'gatsby-image'
 

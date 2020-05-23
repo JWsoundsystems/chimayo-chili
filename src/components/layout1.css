@@ -7,7 +7,7 @@
 }
 
 body{
-    background: var(--mainWhite);
+    background: var(--mainGrey);
     color: var(--mainDark);
     font-family: Verdana, Geneva, Tahoma, sans-serif
     !important;
@@ -29,6 +29,7 @@ h1,h2,h3,h4,h5,h6{
 } 
 
 .default-background,.about-background {
+    background: var(--mainGrey);
     min-height: 30vh;
     display: flex;
     align-items: center;
@@ -37,6 +38,9 @@ h1,h2,h3,h4,h5,h6{
     background-position: center;
     background-size: cover;
 }
+
+
+
 
 .recipe-background {
     background: var(--mainGrey);
@@ -57,10 +61,10 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .info,.contact {
-    background: var(--mainGrey);
+    background: var(--mainWhite);
 }
 
 
 .py-5 {
-    height: 65vh;
+    height: 64vh;
 }
