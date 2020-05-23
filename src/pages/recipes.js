@@ -23,7 +23,7 @@ const RecipePage = ({ data }) => (
 
 export const query = graphql`
 {
-  img: file(relativePath: {eq: "food.jpg"}) {
+  img: file(relativePath: {eq: "redsauce.jpg"}) {
     childImageSharp {
       fluid {
         ...GatsbyImageSharpFluid_tracedSVG
