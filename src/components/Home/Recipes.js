@@ -5,7 +5,7 @@ export default function Recipes() {
     return (
         <section className="py-5 recipe-background" >
             <div className="container">
-            <Title title="Chimayo Red Sauce Recipe"></Title>
+            <Title title="Chimayo Red Sauce Recipe" ></Title>
             <div className="row">
             <div className="col-5 col-sm-5 ">
                 <p className="lead1 text-black mb-5 mx-auto font-size-sml;">

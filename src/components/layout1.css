@@ -71,7 +71,7 @@ h1,h2,h3,h4,h5,h6{
 
 
 
-@media only screen and (max-width: 2319px) {
+@media only screen and (max-width: 2800px) {
    
     .recipe-background {
         height: 720px;
@@ -84,6 +84,14 @@ h1,h2,h3,h4,h5,h6{
     }
     .info {
         height: 720px;
+    }
+    .contact {
+        height: 720px;
+    }
+    .cart-icon {
+        position: relative;
+        right: 40px;
+        top: 5px;;
     }
 }
 
@@ -115,7 +123,7 @@ h1,h2,h3,h4,h5,h6{
     }
     
     .lead1 {
-        font-size: medium;
+        font-size: smaller;
     }
     .titles {
         font-size: xx-large;
@@ -127,6 +135,12 @@ h1,h2,h3,h4,h5,h6{
         position: relative;
         bottom: 5px;
     }
+
+    .products {
+        height: 100px;
+    }
+
+    
 }
 
 @media only screen and (max-width: 767px) {
@@ -261,6 +275,10 @@ h1,h2,h3,h4,h5,h6{
     .btn {
         position: relative;
         top: 10px;
+    }
+    .cart-icon {
+        position: relative;
+        left: 15px;
     }
 }
 
@@ -568,6 +586,24 @@ h1,h2,h3,h4,h5,h6{
     }
     .contact {
         height: 700px;
+    }
+}
+
+@media only screen and (max-width: 259px) {
+    .products {
+        height: 1350px;
+    }
+    .info {
+        height: 620px;
+    }
+    .menu {
+        height: 1000px;
+    }
+    .lead {
+        font-size: x-small;
+    }
+    .contact {
+        height: 650px;
     }
 }
 
