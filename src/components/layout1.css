@@ -68,3 +68,506 @@ h1,h2,h3,h4,h5,h6{
 .py-5 {
     height: 64vh;
 }
+
+
+
+@media only screen and (max-width: 2319px) {
+   
+    .recipe-background {
+        height: 720px;
+    }
+    .lead1 {
+        font-size: medium;
+    }
+    .titles {
+        font-size: xx-large;
+    }
+    .info {
+        height: 720px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .recipe-background {
+        height: 720px;
+    }
+    .lead1 {
+        font-size: medium;
+    }
+    .lead {
+        font-size: larger;
+    }
+    .titles {
+        font-size: xx-large;
+    }
+    .info {
+        height: 720px;
+    }
+    .btn {
+        position: relative;
+        bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .recipe-background {
+        height: 720px;
+    }
+    
+    .lead1 {
+        font-size: medium;
+    }
+    .titles {
+        font-size: xx-large;
+    }
+    .infos {
+        height: 700px;
+    }
+    .btn {
+        position: relative;
+        bottom: 5px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .recipe-background {
+        height: 730px;
+    }
+    .lead1 {
+        font-size: small;
+    }
+    .titles {
+        font-size: xx-large;
+    }
+    
+}
+
+@media only screen and (max-width: 537px) {
+    .recipe-background {
+        height: 730px;
+    }
+    .lead1 {
+        font-size: small;
+    }
+    .titles {
+        font-size: xx-large;
+    }
+}
+
+@media only screen and (max-width: 492px) {
+    .recipe-background {
+        height: 730px;
+    }
+    .lead1 {
+        font-size: x-small;
+    }
+    .titles {
+        font-size: xx-large;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .recipe-background {
+        height: 740px;
+    }
+}
+
+@media only screen and (max-width: 458px) {
+    .recipe-background {
+        height: 730px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .info {
+        height: 720px;
+    }
+}
+
+@media only screen and (max-width: 441px) {
+    .recipe-background {
+        height: 730px;
+    }
+    .lead1 {
+        font-size: x-small;
+    }
+   
+}
+
+@media only screen and (max-width: 304px) {
+    .recipe-background {
+        height: 730px;
+    }
+    .lead1 {
+        font-size: xx-small;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .products {
+        height: 1350px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 800px;
+    }
+    .lead {
+        font-size: large;
+    }
+    .btn {
+        position: relative;
+        bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .products {
+        height: 650px;
+    }
+    .info {
+        height: 740px;
+    }
+    .menu {
+        height: 850px;
+    }
+    .lead {
+        font-size: medium;
+    }
+    .contact {
+        height: 750px;
+    }
+    .btn {
+        position: relative;
+        bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .products {
+        height: 2250px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 850px;
+    }
+   
+    .contact {
+        height: 750px;
+    }
+    .btn {
+        position: relative;
+        top: 10px;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .products {
+        height: 2200px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 850px;
+    }
+    .lead {
+        font-size: medium;
+    }
+    .contact {
+        height: 750px;
+    }
+}
+
+@media only screen and (max-width: 541px) {
+    .products {
+        height: 2200px;
+    }
+    .info {
+        height: 700px;
+    }
+    .menu {
+        height: 850px;
+    }
+    .lead {
+        font-size: medium;
+    }
+    .contact {
+        height: 750px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .products {
+        height: 2100px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 850px;
+    }
+    .lead {
+        font-size: medium;
+    }
+    .contact {
+        height: 750px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .products {
+        height: 1900px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 820px;
+    }
+    .lead {
+        font-size: medium;
+    }
+    .contact {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 467px) {
+    .products {
+        height: 1900px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 820px;
+    }
+    .lead {
+        font-size: smaller;
+    }
+    .contact {
+        height: 650px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .products {
+        height: 1850px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 800px;
+    }
+    .lead {
+        font-size: small;
+    }
+    .contact {
+        height: 650px;
+    }
+}
+
+
+
+@media only screen and (max-width: 411px) {
+    .products {
+        height: 1800px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 830px;
+    }
+    .lead {
+        font-size: small;
+    }
+    .contact {
+        height: 650px;
+    }
+}
+
+@media only screen and (max-width: 391px) {
+    .products {
+        height: 1700px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 890px;
+    }
+    .lead {
+        font-size: small;
+    }
+    .contact {
+        height: 650px;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    .products {
+        height: 1650px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 950px;
+    }
+    .lead {
+        font-size: small;
+    }
+    .contact {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 368px) {
+    .products {
+        height: 1700px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 950px;
+    }
+    .lead {
+        font-size: small;
+    }
+    .contact {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 336px) {
+    .products {
+        height: 1650px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 950px;
+    }
+    .lead {
+        font-size: small;
+    }
+    .contact {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .products {
+        height: 1610px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 1030px;
+    }
+    .lead {
+        font-size: small;
+    }
+    .contact {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 304px) {
+    .products {
+        height: 1650px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 1030px;
+    }
+    .lead {
+        font-size: x-small;
+    }
+    .contact {
+        height: 700px;
+    }
+}
+@media only screen and (max-width: 304px) {
+    .products {
+        height: 1650px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 1030px;
+    }
+    .lead {
+        font-size: x-small;
+    }
+    .contact {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 283px) {
+    .products {
+        height: 1500px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 1130px;
+    }
+    .lead {
+        font-size: x-small;
+    }
+    .contact {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .products {
+        height: 1500px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 1130px;
+    }
+    .lead {
+        font-size: x-small;
+    }
+    .contact {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 270px) {
+    .products {
+        height: 1500px;
+    }
+    .info {
+        height: 720px;
+    }
+    .menu {
+        height: 1130px;
+    }
+    .lead {
+        font-size: x-small;
+    }
+    .contact {
+        height: 700px;
+    }
+}
+

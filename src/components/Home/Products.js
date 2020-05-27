@@ -30,7 +30,7 @@ export default function Products() {
             <StaticQuery query={getProducts} render={data => {
                 return (<section className="py-5 products">
                     <div className="container">
-                        <Title title="our products" />
+                        <Title title="our chile" />
                         <div className="row">
                             {data.products.edges.map(({node:product})=> {
                                 return <Product key={product.id} product={product} />
