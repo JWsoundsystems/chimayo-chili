@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6{
         font-size: xx-large;
     }
     .info {
-        height: 720px;
+        height: 600px;
     }
     .contact {
         height: 720px;
@@ -109,11 +109,14 @@ h1,h2,h3,h4,h5,h6{
         font-size: xx-large;
     }
     .info {
-        height: 720px;
+        height: 600px;
     }
     .btn {
         position: relative;
         bottom: 25px;
+    }
+    .products {
+        height: 700px;
     }
 }
 
@@ -131,13 +134,16 @@ h1,h2,h3,h4,h5,h6{
     .infos {
         height: 700px;
     }
+    
     .btn {
         position: relative;
         bottom: 5px;
     }
-
     .products {
-        height: 100px;
+        height: 650px;
+    }
+    .contact {
+        height: 640px;
     }
 
     
@@ -218,14 +224,12 @@ h1,h2,h3,h4,h5,h6{
 }
 
 @media only screen and (max-width: 991px) {
-    .products {
-        height: 1350px;
-    }
+   
     .info {
-        height: 720px;
+        height: 580px;
     }
     .menu {
-        height: 800px;
+        height: 750px;
     }
     .lead {
         font-size: large;
@@ -241,7 +245,7 @@ h1,h2,h3,h4,h5,h6{
         height: 650px;
     }
     .info {
-        height: 740px;
+        height: 600px;
     }
     .menu {
         height: 850px;
@@ -250,7 +254,7 @@ h1,h2,h3,h4,h5,h6{
         font-size: medium;
     }
     .contact {
-        height: 750px;
+        height: 680px;
     }
     .btn {
         position: relative;
@@ -260,17 +264,17 @@ h1,h2,h3,h4,h5,h6{
 
 @media only screen and (max-width: 575px) {
     .products {
-        height: 2250px;
+        height: 650px;
     }
     .info {
-        height: 720px;
+        height: 680px;
     }
     .menu {
         height: 850px;
     }
    
     .contact {
-        height: 750px;
+        height: 680px;
     }
     .btn {
         position: relative;
@@ -284,10 +288,10 @@ h1,h2,h3,h4,h5,h6{
 
 @media only screen and (max-width: 555px) {
     .products {
-        height: 2200px;
+        height: 620px;
     }
     .info {
-        height: 720px;
+        height: 680px;
     }
     .menu {
         height: 850px;
@@ -296,16 +300,16 @@ h1,h2,h3,h4,h5,h6{
         font-size: medium;
     }
     .contact {
-        height: 750px;
+        height: 680px;
     }
 }
 
 @media only screen and (max-width: 541px) {
     .products {
-        height: 2200px;
+        height: 620px;
     }
     .info {
-        height: 700px;
+        height: 680px;
     }
     .menu {
         height: 850px;
@@ -314,16 +318,16 @@ h1,h2,h3,h4,h5,h6{
         font-size: medium;
     }
     .contact {
-        height: 750px;
+        height: 680px;
     }
 }
 
 @media only screen and (max-width: 520px) {
     .products {
-        height: 2100px;
+        height: 620px;
     }
     .info {
-        height: 720px;
+        height: 680px;
     }
     .menu {
         height: 850px;
@@ -332,31 +336,46 @@ h1,h2,h3,h4,h5,h6{
         font-size: medium;
     }
     .contact {
-        height: 750px;
+        height: 680px;
+    }
+}
+
+@media only screen and (max-width: 503px) {
+    .producttext {
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 489px) {
+    .producttext {
+        font-size: x-small;
+    }
+    .productprice {
+        font-size: x-small;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .products {
-        height: 1900px;
+        height: 550px;
     }
     .info {
-        height: 720px;
+        height: 680px;
     }
     .menu {
-        height: 820px;
+        height: 750px;
     }
     .lead {
         font-size: medium;
     }
     .contact {
-        height: 700px;
+        height: 620px;
     }
 }
 
 @media only screen and (max-width: 467px) {
     .products {
-        height: 1900px;
+        height: 570px;
     }
     .info {
         height: 720px;
@@ -374,19 +393,19 @@ h1,h2,h3,h4,h5,h6{
 
 @media only screen and (max-width: 450px) {
     .products {
-        height: 1850px;
+        height: 570px;
     }
     .info {
-        height: 720px;
+        height: 570px;
     }
     .menu {
-        height: 800px;
+        height: 750px;
     }
     .lead {
         font-size: small;
     }
     .contact {
-        height: 650px;
+        height: 610px;
     }
 }
 
@@ -394,7 +413,10 @@ h1,h2,h3,h4,h5,h6{
 
 @media only screen and (max-width: 411px) {
     .products {
-        height: 1800px;
+        height: 570px;
+    }
+    .producttext {
+        font-size: xx-small;
     }
     .info {
         height: 720px;
@@ -430,7 +452,7 @@ h1,h2,h3,h4,h5,h6{
 
 @media only screen and (max-width: 374px) {
     .products {
-        height: 1650px;
+        height: 720px;
     }
     .info {
         height: 720px;
@@ -448,7 +470,7 @@ h1,h2,h3,h4,h5,h6{
 
 @media only screen and (max-width: 368px) {
     .products {
-        height: 1700px;
+        height: 720px;
     }
     .info {
         height: 720px;
@@ -466,7 +488,7 @@ h1,h2,h3,h4,h5,h6{
 
 @media only screen and (max-width: 336px) {
     .products {
-        height: 1650px;
+        height: 720px;
     }
     .info {
         height: 720px;
@@ -484,7 +506,7 @@ h1,h2,h3,h4,h5,h6{
 
 @media only screen and (max-width: 330px) {
     .products {
-        height: 1610px;
+        height: 720px;
     }
     .info {
         height: 720px;
@@ -502,7 +524,7 @@ h1,h2,h3,h4,h5,h6{
 
 @media only screen and (max-width: 304px) {
     .products {
-        height: 1650px;
+        height: 720px;
     }
     .info {
         height: 720px;
