@@ -93,6 +93,12 @@ h1,h2,h3,h4,h5,h6{
         right: 40px;
         top: 5px;;
     }
+    .products {
+        height: 800px;
+    }
+    .menu {
+        height: 720px;
+    }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -103,13 +109,13 @@ h1,h2,h3,h4,h5,h6{
         font-size: medium;
     }
     .lead {
-        font-size: larger;
+        font-size: large;
     }
     .titles {
         font-size: xx-large;
     }
     .info {
-        height: 720px;
+        height: 600px;
     }
     .btn {
         position: relative;
