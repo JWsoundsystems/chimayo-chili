@@ -46,6 +46,7 @@ h1,h2,h3,h4,h5,h6{
     background: var(--mainGrey);
 }
 
+
 .btn-yellow{
     color: var(--mainYellow);
     border-color: var(--mainYellow);
@@ -69,6 +70,10 @@ h1,h2,h3,h4,h5,h6{
     height: 64vh;
 }
 
+.AboutText {
+    font-size: large;
+}
+
 
 
 @media only screen and (max-width: 2800px) {
@@ -77,7 +82,7 @@ h1,h2,h3,h4,h5,h6{
         height: 720px;
     }
     .lead1 {
-        font-size: medium;
+        font-size: large;
     }
     .titles {
         font-size: xx-large;
@@ -99,6 +104,15 @@ h1,h2,h3,h4,h5,h6{
     .menu {
         height: 720px;
     }
+    .producttext {
+        font-size: large;
+    }
+    .productprice {
+        font-size: large;
+    }
+    .lead {
+        font-size: larger;
+    }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -109,7 +123,7 @@ h1,h2,h3,h4,h5,h6{
         font-size: medium;
     }
     .lead {
-        font-size: large;
+        font-size: medium;
     }
     .titles {
         font-size: xx-large;
@@ -205,7 +219,7 @@ h1,h2,h3,h4,h5,h6{
 
 @media only screen and (max-width: 575px) {
     .products {
-        height: 2050px;
+        height: 2150px;
     }
     .info {
         height: 660px;
