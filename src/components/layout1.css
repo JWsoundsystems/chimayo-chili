@@ -113,6 +113,9 @@ h1,h2,h3,h4,h5,h6{
     .lead {
         font-size: larger;
     }
+    .bg-light {
+        background-color: var(--mainGrey);
+    }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -123,17 +126,17 @@ h1,h2,h3,h4,h5,h6{
         font-size: medium;
     }
     .lead {
-        font-size: medium;
+        font-size: larger;
     }
     .titles {
         font-size: xx-large;
     }
     .info {
-        height: 600px;
+        height: 720px;
     }
     .btn {
         position: relative;
-        bottom: 25px;
+        bottom: 40px;
     }
     .products {
         height: 700px;
@@ -142,7 +145,7 @@ h1,h2,h3,h4,h5,h6{
         height: 720px;
     }
     .contact {
-        height: 650px;
+        height: 720px;
     }
 }
 
@@ -169,10 +172,10 @@ h1,h2,h3,h4,h5,h6{
         height: 650px;
     }
     .contact {
-        height: 640px;
+        height: 720px;
     }
     .info {
-        height: 700px;
+        height: 720px;
     }
     .menu {
         height: 750px;
@@ -188,7 +191,7 @@ h1,h2,h3,h4,h5,h6{
 
 @media only screen and (max-width: 767px) {
     .recipe-background {
-        height: 730px;
+        height: 720px;
     }
     .lead1 {
         font-size: small;
@@ -200,7 +203,7 @@ h1,h2,h3,h4,h5,h6{
         height: 650px;
     }
     .info {
-        height: 740px;
+        height: 720px;
     }
     .menu {
         height: 850px;
@@ -208,12 +211,18 @@ h1,h2,h3,h4,h5,h6{
     .lead {
         font-size: medium;
     }
-    .contact {
-        height: 680px;
-    }
     .btn {
         position: relative;
         bottom: 30px;
+    }
+    .contact {
+        height: 733px;
+    }
+    .navbar {
+        height: 76px;
+    }
+    .producttext {
+        font-size: smaller;
     }
 }
 
@@ -222,14 +231,14 @@ h1,h2,h3,h4,h5,h6{
         height: 2150px;
     }
     .info {
-        height: 660px;
+        height: 720px;
     }
     .menu {
         height: 850px;
     }
    
     .contact {
-        height: 680px;
+        height: 733px;
     }
     .btn {
         position: relative;
@@ -239,14 +248,18 @@ h1,h2,h3,h4,h5,h6{
         position: relative;
         left: 15px;
     }
+    .producttext {
+        font-size: large;
+    }
+
 }
 
 @media only screen and (max-width: 555px) {
     .products {
-        height: 2050px;
+        height: 2100px;
     }
     .info {
-        height: 680px;
+        height: 720px;
     }
     .menu {
         height: 850px;
@@ -254,9 +267,7 @@ h1,h2,h3,h4,h5,h6{
     .lead {
         font-size: medium;
     }
-    .contact {
-        height: 680px;
-    }
+    
 }
 
 @media only screen and (max-width: 541px) {
@@ -264,7 +275,7 @@ h1,h2,h3,h4,h5,h6{
         height: 2050px;
     }
     .info {
-        height: 680px;
+        height: 720px;
     }
     .menu {
         height: 850px;
@@ -272,14 +283,12 @@ h1,h2,h3,h4,h5,h6{
     .lead {
         font-size: medium;
     }
-    .contact {
-        height: 680px;
-    }
+    
 }
 
 @media only screen and (max-width: 537px) {
     .recipe-background {
-        height: 730px;
+        height: 720px;
     }
     .lead1 {
         font-size: small;
@@ -291,26 +300,28 @@ h1,h2,h3,h4,h5,h6{
 
 @media only screen and (max-width: 520px) {
     .products {
-        height: 1950px;
+        height: 2050px;
     }
     .info {
-        height: 680px;
+        height: 720px;
     }
     .menu {
         height: 850px;
     }
     .lead {
-        font-size: medium;
+        font-size: smaller;
     }
-    .contact {
-        height: 680px;
-    }
+    
 }
 
 @media only screen and (max-width: 503px) {
     .producttext {
-        font-size: small;
+        font-size: large;
     }
+    .lead {
+        font-size: smaller;
+    }
+    
 }
 
 @media only screen and (max-width: 499px) {
@@ -318,13 +329,13 @@ h1,h2,h3,h4,h5,h6{
         height: 720px;
     }
     .products {
-        height: 1900px;
+        height: 1950px;
     }
 }
 
 @media only screen and (max-width: 492px) {
     .recipe-background {
-        height: 730px;
+        height: 720px;
     }
     .lead1 {
         font-size: x-small;
@@ -337,67 +348,66 @@ h1,h2,h3,h4,h5,h6{
 
 @media only screen and (max-width: 489px) {
     .producttext {
-        font-size: x-small;
+        font-size: medium;
     }
     .productprice {
-        font-size: x-small;
+        font-size: medium;
     }
     .products {
-        height: 1850px;
+        height: 1950px;
+    }
+    .info {
+        height: 720px;
     }
 }
 
+
+
 @media only screen and (max-width: 480px) {
     .products {
-        height: 1750px;
+        height: 1850px;
     }
     .info {
-        height: 680px;
+        height: 720px;
     }
     .menu {
         height: 750px;
     }
-    .lead {
-        font-size: medium;
-    }
-    .contact {
-        height: 620px;
-    }
+   
+    
     .recipe-background {
-        height: 740px;
+        height: 720px;
     }
 }
 
 @media only screen and (max-width: 467px) {
     .products {
-        height: 1700px;
+        height: 1800px;
     }
     .info {
-        height: 600px;
+        height: 720px;
     }
     .menu {
-        height: 820px;
+        height: 720px;
     }
     .lead {
         font-size: smaller;
     }
-    .contact {
-        height: 650px;
-    }
+   
 }
 
 @media only screen and (max-width: 458px) {
     .recipe-background {
-        height: 730px;
+        height: 720px;
     }
 }
 
 @media only screen and (max-width: 450px) {
     .products {
-        height: 1700px;
+        height: 1750px;
     }
     .info {
-        height: 570px;
+        height: 720px;
     }
     .menu {
         height: 750px;
@@ -405,33 +415,31 @@ h1,h2,h3,h4,h5,h6{
     .lead {
         font-size: small;
     }
-    .contact {
-        height: 610px;
-    }
+    
     
 }
 
 @media only screen and (max-width: 441px) {
     .recipe-background {
-        height: 730px;
+        height: 720px;
     }
     .lead1 {
         font-size: x-small;
     }
     .info {
-        height: 600px;
+        height: 720px;
     }
 }
 
 @media only screen and (max-width: 411px) {
     .products {
-        height: 1600px;
+        height: 1680px;
     }
     .producttext {
-        font-size: xx-small;
+        font-size: medium;
     }
     .info {
-        height: 590px;
+        height: 720px;
     }
     .menu {
         height: 830px;
@@ -439,44 +447,53 @@ h1,h2,h3,h4,h5,h6{
     .lead {
         font-size: small;
     }
-    .contact {
-        height: 650px;
+    
+}
+
+@media only screen and (max-width: 389px) {
+    
+    .products {
+        height: 1620px;
     }
 }
 
 @media only screen and (max-width: 386px) {
     .info {
-        height: 640px;
+        height: 720px;
     }
+    
 }
 
 @media only screen and (max-width: 361px) {
     .info {
-        height: 640px;
+        height: 720px;
     }
     .menu {
         height: 950px;;
     }
     .products {
-        height: 1500px;;
+        height: 1580px;;
     }
 }
 
 @media only screen and (max-width: 340px) {
     .info {
-        height: 670px;
+        height: 720px;
+    }
+    .products {
+        height: 1520px;
     }
 }
 
 @media only screen and (max-width: 314px) {
     .info {
-        height: 700px;
+        height: 720px;
     }
 }
 
 @media only screen and (max-width: 311px) {
     .info {
-        height: 750px;
+        height: 720px;
     }
 }
 
@@ -485,40 +502,39 @@ h1,h2,h3,h4,h5,h6{
     .menu {
         height: 950px;
     }
-    .lead {
-        font-size: x-small;
-    }
-    .contact {
-        height: 700px;
-    }
+    
+    
     .recipe-background {
-        height: 730px;
+        height: 720px;
     }
     .lead1 {
         font-size: xx-small;
     }
     .products {
-        height: 1350px;
+        height: 1390px;
     }
     .info {
-        height: 590px;
+        height: 720px;
     }
     
     .lead {
-        font-size: x-small;
+        font-size: small;
     }
-    .contact {
-        height: 700px;
+    .producttext {
+        font-size: small;
+    }
+    .productprice {
+        font-size: small;
     }
 }
 
 
 @media only screen and (max-width: 283px) {
     .products {
-        height: 1300px;
+        height: 1380px;
     }
     .info {
-        height: 620px;
+        height: 720px;
     }
     .menu {
         height: 1050px;
@@ -526,14 +542,12 @@ h1,h2,h3,h4,h5,h6{
     .lead {
         font-size: x-small;
     }
-    .contact {
-        height: 700px;
-    }
+    
 }
 
 @media only screen and (max-width: 280px) {
     .products {
-        height: 1250px;
+        height: 1400px;
     }
     .info {
         height: 720px;
@@ -544,15 +558,11 @@ h1,h2,h3,h4,h5,h6{
     .lead {
         font-size: x-small;
     }
-    .contact {
-        height: 700px;
-    }
+    
 }
 
 @media only screen and (max-width: 270px) {
-    .products {
-        height: 1500px;
-    }
+  
     .info {
         height: 720px;
     }
@@ -562,17 +572,13 @@ h1,h2,h3,h4,h5,h6{
     .lead {
         font-size: x-small;
     }
-    .contact {
-        height: 700px;
-    }
+    
 }
 
 @media only screen and (max-width: 259px) {
-    .products {
-        height: 1250px;
-    }
+    
     .info {
-        height: 620px;
+        height: 720px;
     }
     .menu {
         height: 1000px;
@@ -580,8 +586,6 @@ h1,h2,h3,h4,h5,h6{
     .lead {
         font-size: x-small;
     }
-    .contact {
-        height: 650px;
-    }
+   
 }
 
