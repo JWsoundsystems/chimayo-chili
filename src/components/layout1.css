@@ -218,11 +218,12 @@ h1,h2,h3,h4,h5,h6{
     .contact {
         height: 733px;
     }
-    .navbar {
-        height: 76px;
-    }
+    
     .producttext {
         font-size: smaller;
+    }
+    .footer {
+        height: 100px;
     }
 }
 
@@ -373,7 +374,9 @@ h1,h2,h3,h4,h5,h6{
     .menu {
         height: 750px;
     }
-   
+   .footer {
+       height: 110px;
+   }
     
     .recipe-background {
         height: 720px;
@@ -462,6 +465,18 @@ h1,h2,h3,h4,h5,h6{
         height: 720px;
     }
     
+}
+
+@media only screen and (max-width: 375px) {
+    .products {
+        height: 1600px;
+    }
+    .info {
+        height: 680px;
+    }
+    .menu {
+        height: 1000px;
+    }
 }
 
 @media only screen and (max-width: 361px) {
